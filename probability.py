@@ -126,16 +126,3 @@ class Probab():
         else:
             dictionary[tag] = 1
         
-
-
-#import re
-#import argparse
-#Parsing the input/output file name arguments from the terminal
-#parser = argparse.ArgumentParser()
-#parser.add_argument("input", help="name of input file without .txt")
-##parser.add_argument("output", help="name of output file without .txt")
-#args = parser.parse_args()
-#if (args.output == None or args.input == None):
-#    print "incorrect arguments. Type python program_dollars.py <name of input file without .txt> <name of output file without .txt>"
-#    exit();
-#with open(args.input+".txt", "r") as inputfile:
